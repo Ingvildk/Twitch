@@ -1,0 +1,61 @@
+ffmpeg version N-72981-gdc87758 Copyright (c) 2000-2015 the FFmpeg developers
+  built with gcc 4.9.2 (GCC)
+
+  configuration: --enable-gpl --enable-version3 --disable-w32threads --enable-avisynth --enable-bzli
+b --enable-fontconfig --enable-frei0r --enable-gnutls --enable-iconv --enable-libass --enable-libblu
+ray --enable-libbs2b --enable-libcaca --enable-libdcadec --enable-libfreetype --enable-libgme --enab
+le-libgsm --enable-libilbc --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enab
+le-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger
+ --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --ena
+ble-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --en
+able-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-lzma --ena
+ble-decklink --enable-zlib
+  libavutil      54. 27.100 / 54. 27.100
+  libavcodec     56. 41.100 / 56. 41.100
+  libavformat    56. 36.100 / 56. 36.100
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 17.100 /  5. 17.100
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.100 /  1.  2.100
+  libpostproc    53.  3.100 / 53.  3.100
+
+Input #0, hls,applehttp, from 'http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_14bc/leahloveschief_1
+4838242832_256354402/chunked/index-dvr.m3u8':
+  Duration: 02:07:40.56, start: 65.569000, bitrate:
+0 kb/s
+  Program 0
+    Metadata:
+      variant_bitrate : 0
+    Stream #0:0: Audio: aac (LC) ([15][0][0][0] / 0x000F), 44100 Hz, stereo, fltp, 138 kb/s
+    Stream #0:1: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p, 1280x720, 30 fps, 30 tbr, 90k
+ tbn, 60 tbc
+    Stream #0:2: Data: timed_id3 (ID3  / 0x20334449)
+
+[mp4 @ 0557c8c0]
+Codec for stream 0 does not use global headers but container format requires global headers
+[mp4 @ 0557c8c0]
+Codec for stream 1 does not use global headers but container format requires global headers
+Output #0, mp4, to 'THIIIINGS (0) -v6102919.mp4.part':
+  Metadata:
+    encoder         : Lavf56.36.100
+
+    Stream #0:0: Video: h264 ([33][0][0][0] / 0x0021), yuv420p, 1280x720, q=2-31, 30 fps, 30 tbr, 90
+k tbn, 90k tbc
+    Stream #0:1: Audio: aac ([64][0][0][0] / 0x0040), 44100 Hz, stereo, 138 kb/s
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+frame=  239 fps=0.0 q=-1.0 size=    2178kB time=00:00:08.45 bitrate=2111.1kbits/s
+frame=  428 fps=423 q=-1.0 size=    3958kB time=00:00:14.67 bitrate=2209.4kbits/s
+frame=  650 fps=430 q=-1.0 size=    5904kB time=00:00:22.06 bitrate=2191.9kbits/s
+frame=  841 fps=414 q=-1.0 size=    7640kB time=00:00:28.44 bitrate=2200.3kbits/s
+frame= 1049 fps=414 q=-1.0 size=    9617kB time=00:00:35.36 bitrate=2227.9kbits/s
+frame= 1246 fps=410 q=-1.0 size=   11344kB time=00:00:41.93 bitrate=2216.1kbits/s
+frame= 1434 fps=405 q=-1.0 size=   13083kB time=00:00:48.20 bitrate=2223.3kbits/s
+frame= 1648 fps=407 q=-1.0 size=   14987kB time=00:00:55.33 bitrate=2218.7kbits/s
+frame= 1846 fps=405 q=-1.0 size=   16773kB time=00:01:01.95 bitrate=2218.0kbits/s
+frame= 2051 fps=406 q=-1.0 size=   18712kB time=00:01:08.76 bitrate=2229.3kbits/s
+frame= 2264 fps=407 q=-1.0 size=   20600kB time=00:01:15.95 bitrate=2221.9kbits/s
